@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(221, 221, 221);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(175, 203, 216);
+}
+
+.timerBox {
+    background-color: rgb(57, 67, 100);
+    padding: 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timerBox h1{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(102, 214, 102);
+}
+.timerBox .input{
+    width: 300px;
+    display:flex;
+}
+
+.timerBox .input input{
+    width: 100%;
+    padding: 15px;
+}
+
+.timerBox .input button{
+    width: 100px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.timerBox .input button:hover{
+    background-color: rgb(102, 214, 102);
+}
+.hide{
+    display: none;
+}
+
+.stopwatch .number{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(102, 214, 102);
+
+}
+.stopwatch .seconds{
+    font-weight: bold;
+    color: rgb(102, 214, 102);
+}
