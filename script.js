@@ -29,3 +29,4 @@ function startStopWatch(){
 
 
 startBtn.addEventListener("click", startStopWatch);
+
